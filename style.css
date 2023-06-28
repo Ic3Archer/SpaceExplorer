@@ -1,0 +1,117 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(28, 28, 46);
+    background-image: url(img/space.jpg);
+}
+
+.catchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.catchText  {
+    text-align: center;
+}
+
+.catchText h1 {
+    border-top: 2px solid;
+    border-image: linear-gradient(to right,#2143af,#4a2166) 1 0 0 0;
+    padding-top: 5px;
+    font-family: 'Roboto Light', sans-serif;
+    letter-spacing: 10px;
+    color: white;
+    margin-top: 40%;
+}
+
+.catchText h2 {
+    border: 2px solid white;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Roboto Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: 10%;
+}
+
+.subText {
+    display: flex;
+    justify-content: center;
+}
+
+.subText p:hover {
+    border-color: #4a2166;
+    transition: ease 500ms;
+}
+
+.subText p {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin: 10px;
+    margin-top: -5px;
+    
+}
+
+.verticalLine {
+    position: absolute;
+    top: 45%;
+    margin-top: -0px;
+    width: 1px;
+    height: 400px;
+    background-color: white;
+    opacity: 50%;
+}
+
+.learnMore {
+    position: absolute;
+    top: 90%;
+    border: 2px solid white;
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.learnMore a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.learnMore:hover {
+    border-color: #4a2166;
+    transition: ease 500ms;
+}
+
+.quote1 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 25px;
+    right: 50%;
+    top: 45%;
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.quote2 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 25px;
+    left: 50%;
+    top: 65%;
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
