@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: rgb(28, 28, 46);
-    background-image: url(img/space.jpg);
+    background-image: url(space.png);
 }
 
 .catchContainer {
