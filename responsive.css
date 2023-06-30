@@ -24,10 +24,14 @@
     }
 
     .learnMore {
-        top: 36%;
+        top: 44%;
     }
 
     .subText p {
         margin-top: 80px;
+    }
+
+    .verticalLine {
+        top: 60%;
     }
 }
